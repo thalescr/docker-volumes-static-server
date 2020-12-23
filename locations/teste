@@ -1,0 +1,3 @@
+location /teste {
+    root /vol/teste;
+}

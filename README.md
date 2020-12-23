@@ -1,6 +1,6 @@
-# Docker volumes static server
+# Public files server
 
-This is a static files server based on [nginx-unprivileged](https://hub.docker.com/r/nginxinc/nginx-unprivileged) docker image. It is configured to automatically serve all your docker volumes named like `ANYTHING_static` in the URL `http://localhost/ANYTING`.
+This is a static files server script that uses [flashspys/nginx-static](https://hub.docker.com/r/flashspys/nginx-static) docker image. It's configured to automatically serve every docker volume named like `ANYTHING_static` in the URL `http://localhost/ANYTING`.
 
 ## Requirements
 
